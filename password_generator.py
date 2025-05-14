@@ -34,3 +34,5 @@ symbols = input("Include symbols? (y/n): ").lower().startswith("y")
 password = generate_password(length, symbols)
 print(f"\nGenerated password: {password}")
 print(f"Strength: {evaluate_strength(password)}")
+
+# Email identity now matches GitHub
