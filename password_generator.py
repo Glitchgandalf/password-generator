@@ -1,7 +1,9 @@
 import random
 import string
 
+
 def evaluate_strength(password):
+    # Added strength evaluator feature
     length = len(password)
     has_symbol = any(c in string.punctuation for c in password)
     has_upper = any(c.isupper() for c in password)
